@@ -8,10 +8,10 @@ public class Main {
 	
 	public static void main(String[] args) throws IOException {
 	
-		int[] n;
+		int[] n; // 입력받을 n을 담는 배열
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 	
-		int t = Integer.parseInt(br.readLine());
+		int t = Integer.parseInt(br.readLine()); // 테스트케이스 갯수
 		n = new int[t];
 
 		for(int i=0; i<t; i++) {
@@ -25,8 +25,8 @@ public class Main {
 	}
 	
 	public static void fibonacci(int n) {
-		zero[0] = 1;
-		one[1] = 1;
+		zero[0] = 1; // n이0일 때는 0: 1, 1: 0
+		one[1] = 1; // n이1일 때는 0: 0, 1: 1
 
 		if(n >= 2) {
 			for(int i=2; i<=n; i++) {
