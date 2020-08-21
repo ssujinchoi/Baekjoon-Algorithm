@@ -2,7 +2,7 @@
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class Baekjoon1003 {
+public class Main {
 	public static int[] zero = new int[41];
 	public static int[] one = new int[41];
 	
