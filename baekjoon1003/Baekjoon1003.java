@@ -1,6 +1,4 @@
-﻿package algorithm;
-
-import java.io.BufferedReader;
+﻿import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
@@ -29,6 +27,7 @@ public class Baekjoon1003 {
 	public static void fibonacci(int n) {
 		zero[0] = 1;
 		one[1] = 1;
+
 		if(n >= 2) {
 			for(int i=2; i<=n; i++) {
 				zero[i] = zero[i-1] + zero[i-2];
